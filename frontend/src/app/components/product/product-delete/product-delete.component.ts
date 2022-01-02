@@ -9,19 +9,19 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./product-delete.component.css'],
 })
 export class ProductDeleteComponent implements OnInit {
-  product!: Product;
+  product: Product = {} as Product;
 
   constructor(
     private productService: ProductService,
     private router: Router,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id')!;
-    this.productService.readById(id).subscribe((product) => {
+    this.productService.readById(id).subscribe(product => {
       this.product = product;
-0    });
+    });
   }
 
   deleteProduct(): void {
