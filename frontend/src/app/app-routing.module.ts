@@ -8,26 +8,11 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 const routes: Routes = [
-  {
-  path: '',
-  component: HomeComponent
-  },
-  {
-    path: 'products',
-    component: ProductCrudComponent
-  },
-  {
-    path: 'products/create',
-    component: ProductCreateComponent
-  },
-  {
-    path: 'products/update/:id',
-    component: ProductUpdateComponent
-  },
-  {
-    path: 'products/delete/:id',
-    component: ProductDeleteComponent
-  }
+  { path: '', component: HomeComponent },
+  { path: 'products', component: ProductCrudComponent },
+  { path: 'products/create', component: ProductCreateComponent },
+  { path: 'products/update/:id', component: ProductUpdateComponent },
+  { path: 'products/delete/:id', component: ProductDeleteComponent }
 ];
 
 @NgModule({

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Product } from './../product.model';
-import { ProductService } from './../product.service';
+
+import { Product } from '../../../models/product.model';
+import { ProductService } from '../../../services/product.service';
 
 @Component({
   selector: 'app-product-update',
@@ -9,6 +10,7 @@ import { ProductService } from './../product.service';
   styleUrls: ['./product-update.component.css'],
 })
 export class ProductUpdateComponent implements OnInit {
+  
   product!: Product;
 
   constructor(

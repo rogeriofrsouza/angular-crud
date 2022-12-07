@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderService } from './header.service';
+
+import { HeaderService } from '../../../services/header.service';
 
 @Component({
   selector: 'app-header',
@@ -14,14 +15,14 @@ export class HeaderComponent implements OnInit {
   }
 
   get title(): string {
-    return this.headerService.headerData.title
+    return this.headerService.headerData.title;
   }
 
   get icon(): string {
-    return this.headerService.headerData.icon
+    return this.headerService.headerData.icon;
   }
 
   get routeUrl(): string {
-    return this.headerService.headerData.routeUrl
+    return this.headerService.headerData.routeUrl;
   }
 }
