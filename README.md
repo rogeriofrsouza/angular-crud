@@ -1,29 +1,57 @@
-https://rogeriofrsouza.github.io/angular-crud/
+<h1 align="center">:computer: Angular Crud :shopping:</h1>
 
-# Frontend
+<p align="center">
+  <a href="https://rogeriofrsouza.github.io/angular-crud/" target="_blank">Page</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+<p align="center">
+  <a href="https://rogeriofrsouza.github.io/angular-crud/" target="_blank">
+    <img alt="Preview" src="frontend/src/assets/img/angular-crud-preview.png" width="100%">
+  </a>
+</p>
+<br/>
 
-## Development server
+## 🚀 Tech Stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was developed using these technologies:
 
-## Code scaffolding
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="28px" width="28px"/>
+  &nbsp;Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Libraries:
 
-## Build
+- [json-server](https://github.com/typicode/json-server)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Utilities:
 
-## Running unit tests
+- [Angular Material](https://material.angular.io/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<br/>
 
-## Running end-to-end tests
+## 💻 Project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- This is a simple CRUD project for products in a store, it's responsive and uses json-server as a fake API Rest. To test this project, you need to run json-server in backend folder ```json-server --watch db.json```
+- Nice application for new Angular depelovers
+- Developed in **Angular 9 Essencial [2020]**. You can check the full course [here](https://www.udemy.com/course/angular-9-essencial/).
 
-## Further help
+<br/>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 🔖 Layout
+
+Made by [Leonardo Moura Leitao](https://www.udemy.com/user/leonardomouraleitao/) 👾
+
+<br/>
+
+## 📝 License
+
+This project is under MIT License. You can check [LICENSE](https://github.com/rogeriofrsouza/angular-crud/blob/main/LICENSE) for more details.
+
+<br/>
+
+---
+
+Made with ♥ by Rogério :wave:
